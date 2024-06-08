@@ -4,7 +4,8 @@ const pool = [
 	'https://v3-cinemeta.strem.io/catalog/movie/top/skip=2.json',
 	'https://v3-cinemeta.strem.io/catalog/movie/top/skip=4.json',
 	'https://v3-cinemeta.strem.io/catalog/movie/top/skip=5.json',
-	'https://v3-cinemeta.strem.io/catalog/movie/imdbRating/skip=0.json'
+	'https://v3-cinemeta.strem.io/catalog/movie/imdbRating/skip=0.json',
+	'https://v3-cinemeta.strem.io/catalog/movie/imdbRating/skip=1.json'
 
 ];
 
