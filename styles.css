@@ -1,0 +1,73 @@
+html, body, #overlay {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-weight: 300;
+}
+#overlay {
+	background: rgba(0,0,0,0.8);
+	overflow: hidden;
+	padding-top: 3em;
+}
+h1 {
+	font-size: 3em;
+	width: 80%;
+	text-align: center;
+	min-height: 60px;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+p {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+}
+button {
+	background-color: rgb(112,59,148);
+	outline: 0px;
+	border: 0px;
+	font-size: 2em;
+	padding: 1em;
+	margin: 1em;
+	color: white;
+	cursor: pointer;
+}
+#overlay button, #overlay h1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+button:hover {
+	background-color: rgb(138,90,171);
+}
+button.try-again {
+	background-color: rgba(255,255,255,0.5);
+	font-size: 1.3em;
+}
+button.try-again:hover {
+	background-color: rgba(255,255,255,0.7);
+}
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#refresh {
+	font-size: 1.3em;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+}
+#refresh:hover {
+	text-decoration: none;
+}
+#description {
+	min-height: 250px;
+}
