@@ -4,12 +4,8 @@ const pool = [
 	'https://v3-cinemeta.strem.io/catalog/movie/top/skip=2.json',
 	'https://v3-cinemeta.strem.io/catalog/movie/top/skip=4.json',
 	'https://v3-cinemeta.strem.io/catalog/movie/top/skip=5.json',
-	'https://v3-cinemeta.strem.io/catalog/movie/imdbRating/skip=0.json',
-	'https://v3-cinemeta.strem.io/catalog/movie/imdbRating/skip=1.json',
-	'https://1fe84bc728af-imdb-list.beamup.dev/ls028057361/catalog/movie/imdb-movie-list.json',
-	'https://1fe84bc728af-imdb-list.beamup.dev/ls041298577/catalog/movie/imdb-movie-list.json',
-	'https://1fe84bc728af-imdb-list.beamup.dev/ls041868378/catalog/movie/imdb-movie-list.json',
-	'https://1fe84bc728af-imdb-list.beamup.dev/ls045252260/catalog/movie/imdb-movie-list.json'
+	'https://v3-cinemeta.strem.io/catalog/movie/imdbRating/skip=0.json'
+
 ];
 
 const shuffleArray = arr => arr
